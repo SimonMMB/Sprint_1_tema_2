@@ -1,6 +1,6 @@
 <?php
-//Topic 2, level 1
-echo "<h2> TOPIC 2 LEVEL 1 </h2>";
+//Sprint 1, topic 2, level 1
+echo "<h2> Sprint 1, topic 2, level 1 </h2>";
 
 //Exercise 1
 echo "<h3> EXERCISE 1 </h3>";
