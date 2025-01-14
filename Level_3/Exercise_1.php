@@ -1,5 +1,5 @@
 <?php
-//Function
+//FUNCTION
 function determinePrimeNumbers(int $number) : string {
     $primeNumbers = [];
     //List of total numbers between 2 and $number (both included)
@@ -20,7 +20,7 @@ function determinePrimeNumbers(int $number) : string {
     $message = 'Prime numbers <= ' . $number . ': ' . implode(', ', $primeNumbers) . PHP_EOL;
     return $message;
 }
-//Examples
+//EXAMPLES
 echo (determinePrimeNumbers(20));
 echo (determinePrimeNumbers(50));
 echo (determinePrimeNumbers(100));

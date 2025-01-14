@@ -1,6 +1,8 @@
 # Sprint_1_tema_2
 PHP basic
 
+=> 14-JAN-25: LEVEL 2 & 3
+
 📄 EXERCISES DESCRIPTION
 
 LEVEL 1
@@ -45,16 +47,15 @@ Charlie bit my finger! Charlie will bite your finger exactly 50% of the time. Wr
 LEVEL 2
 - Exercise 1
 Write a function that determines the total amount to pay for a telephone call according to the following premises:
-Any call that lasts less than 3 minutes has a cost of 10 cents.
-Each additional minute after the first 3 is a meter step and costs 5 cents.
+    * Any call that lasts less than 3 minutes has a cost of 10 cents.
+    * Each additional minute after the first 3 is a meter step and costs 5 cents.
 
 - Exercise 2
 Imagine that we are in a store that sells:
-Chocolate: 1 euro
-Chewing gum: 0.50 euros
-Candies: 1.50 euros
-Implement a program that allows you to add calculations to a total of purchases of this type. For example, if we buy: 2 chocolates, 1 gum and 1 candy, let's have a program that allows us to add the subtotals to a total, such that: function(2 chocolates) + function(1 gum) + function(1 candy) = 2 + 0.5 + 1.5.
-Therefore, the total is 4.
+    * Chocolate: 1 euro
+    * Chewing gum: 0.50 euros
+    * Candies: 1.50 euros
+Implement a program that allows you to add calculations to a total of purchases of this type. For example, if we buy: 2 chocolates, 1 gum and 1 candy, let's have a program that allows us to add the subtotals to a total, such that: function(2 chocolates) + function(1 gum) + function(1 candy) = 2 + 0.5 + 1.5 = 4.
 
 LEVEL 3
 - Exercise 1
@@ -67,5 +68,5 @@ The Sieve of Eratosthenes is an algorithm designed to find prime numbers within 
 - Git/Github
 
 📋 NOTES
-Display de execution of the code of Level 1 exercises in navigator.
-Display de execution of the code of Level 2 and Level 3 exercises in console.
+- Display de execution of the code of Level 1 exercises in navigator.
+- Display de execution of the code of Level 2 and Level 3 exercises in console.

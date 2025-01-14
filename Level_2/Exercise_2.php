@@ -1,9 +1,9 @@
 <?php
-//Constants
+//CONSTANTS
 define ('CHOCOLATE_PRICE', 1.0);
 define ('GUM_PRICE', 0.5);
 define ('CANDY_PRICE', 1.5);
-//Function
+//FUNCTION
 function calculateSubTotal(int $quantity, string $product) : float {
     $sweet = strtolower($product);
     $subTotal = 0;
@@ -20,7 +20,7 @@ function calculateSubTotal(int $quantity, string $product) : float {
     }
     return $subTotal;
 }
-//Program (console interaction)
+//PROGRAM (CONSOLE INTERACTION)
 echo '¡Hola! ¿Cuántos productos quieres llevar?' . PHP_EOL;
 $numProducts = fgets(STDIN);
 $numProducts = trim($numProducts);

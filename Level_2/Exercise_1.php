@@ -1,5 +1,5 @@
 <?php
-//Functions
+//FUNCTIONS
 function calculateFee(int $time) : float {
     $fee = 0;
     if ($time <= 3) {
@@ -18,7 +18,7 @@ function printCostOfCall(int $time) : string {
     }
     return $message;
 }
-//Examples
+//EXAMPLES
 echo printCostOfCall(-1);
 echo printCostOfCall(0);
 echo printCostOfCall(3);
